@@ -3,7 +3,7 @@ import "./Navitem.css"
 
 const Navitem = () => {
     return(
-        <a className="item" href="#">Input</a>
+        <a className="item" href="/">Input</a>
     )
 }
 

@@ -3,12 +3,19 @@
 	height: 300px;
 	background-color: rgb(230, 241, 245);
 	border-radius: 50%;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: 0.4s;
 }
 
 a {
 	color: orange;
+}
+
+.item:hover {
+	background-color: orange;
+	color: lightblue;
+	font-size: 3rem;
 }
