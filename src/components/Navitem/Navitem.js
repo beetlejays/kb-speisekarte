@@ -1,8 +1,9 @@
 import React from "react";
+import "./Navitem.css"
 
 const Navitem = () => {
     return(
-        <h1>hello</h1>
+        <a className="item" href="#">Input</a>
     )
 }
 
