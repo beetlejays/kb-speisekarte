@@ -1,10 +1,9 @@
 import React from "react"
+import Navitem from "./Navitem/Navitem"
 
 const App = () => {
     return(
-        <ul>
-            <li>Dog</li>
-        </ul>
+        <Navitem />
     )
 }
 
