@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap");
+
 * {
 	box-sizing: border-box;
 }
@@ -24,4 +26,5 @@ li {
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	grid-gap: 3rem;
 	justify-items: center;
+	padding: 3rem 0;
 }

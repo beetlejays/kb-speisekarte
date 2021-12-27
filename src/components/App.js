@@ -12,7 +12,7 @@ const App = () => {
         <Navitem name="Säfte"/>
         <Navitem name="Kuchen"/>
         <Navitem name="Spezialitäten"/>
-        <Navitem name="Spezialitäten"/>
+    
         </>
     )
 }
