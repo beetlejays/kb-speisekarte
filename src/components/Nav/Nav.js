@@ -10,7 +10,7 @@ const Nav = () => {
         <>
         <BrowserRouter>
             <Routes>
-            <Route path="/Home" element={<Home />} / >
+            <Route path="/" element={<Home />} / >
             <Route path="/Fruehstueck" element={<Fruehstueck />} / >
             <Route path="/Suppen" element={<Suppen />} / >            
             </Routes>
