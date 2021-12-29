@@ -1,6 +1,7 @@
 //// React
 import React from "react"
 import Nav from "./Nav/Nav"
+import Header from "./Header/Header"
 ///// CSS
 import "./App.css"
 
@@ -10,6 +11,7 @@ const App = () => {
     return(
         <>      
         <Nav />
+        <Header />
         </>
     )
 }
