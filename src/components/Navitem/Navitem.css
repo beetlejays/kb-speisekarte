@@ -13,12 +13,10 @@
 }
 
 a {
-	background-color: rgb(230, 119, 16);
 	text-decoration: none;
 }
 
 .item:hover,
 .item:active {
-	background-color: rgb(255, 123, 0);
 	font-size: 2.7rem;
 }

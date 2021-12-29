@@ -1,18 +1,15 @@
+//// React
 import React from "react"
-import Navitem from "./Navitem/Navitem"
+import Nav from "./Nav/Nav"
+///// CSS
+import "./App.css"
 
+
+///// Setup
 const App = () => {
     return(
-        <>
-        <Navitem name="Frühstück" />
-        <Navitem name="Speisen" />
-        <Navitem name="Suppen"/>
-        <Navitem name="Heissgetränke"/>
-        <Navitem name="Softdrinks"/>
-        <Navitem name="Säfte"/>
-        <Navitem name="Kuchen"/>
-        <Navitem name="Spezialitäten"/>
-    
+        <>      
+        <Nav />
         </>
     )
 }
