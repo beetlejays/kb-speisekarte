@@ -4,7 +4,8 @@ import React from "react"
 const Suppen = () => {
     return(
        <div>
-           <h1>Suppen</h1>
+           <h1 className="center" >Suppen</h1>
+           
        </div>
     )
 }
