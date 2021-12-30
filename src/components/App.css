@@ -43,3 +43,7 @@ h1 {
 	text-transform: uppercase;
 	color: orange;
 }
+
+.center {
+	text-align: center;
+}

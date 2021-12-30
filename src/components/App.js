@@ -14,7 +14,7 @@ const App = () => {
     return(
         <>      
         <Nav />
-        
+        <div className="container">
         <Navitem  name="Fruehstueck" />
         <Navitem  name="Speisen" />
         <Navitem  name="Suppen" />
@@ -22,6 +22,7 @@ const App = () => {
         <Navitem  name="Getränke" />
         <Navitem  name="Spezialitäten" />
         <Navitem  name="Kuchen" />
+        </div>
         </>
     )
 }

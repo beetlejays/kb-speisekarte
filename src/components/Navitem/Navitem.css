@@ -9,6 +9,8 @@
 	justify-content: center;
 	transition: 0.4s;
 	font-family: "Oswald", sans-serif;
+	display: flex;
+	justify-content: center;
 }
 
 a {
