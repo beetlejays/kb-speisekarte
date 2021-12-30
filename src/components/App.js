@@ -21,7 +21,7 @@ const App = () => {
         <Navitem  name="Kuchen" />
         <Navitem  name="Getränke" />
         <Navitem  name="Spezialitäten" />
-        <Navitem  name="Kuchen" />
+
         </div>
         </>
     )
