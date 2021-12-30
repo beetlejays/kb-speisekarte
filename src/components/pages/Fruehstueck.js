@@ -4,6 +4,7 @@ const Fruehstueck = () => {
     return(
        <div>
            <h1>Frühstücke</h1>
+           <p>Hier gibt es ganz tolle Frühstücke</p>
        </div>
     )
 }
