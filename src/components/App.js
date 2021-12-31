@@ -1,10 +1,14 @@
 //// React
 import React from "react"
-import Navitem from "./Navitem/Navitem"
+
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from "./pages/Home";
 import Fruehstueck from "./pages/Fruehstueck";
 import Suppen from "./pages/Suppen";
+import Speisen from "./pages/Speisen";
+import Salate from "./pages/Salate";
+import Getraenke from "./pages/Getraenke";
+import Spezialitaeten from "./pages/Spezialitaeten";
+import Kuchen from "./pages/Kuchen";
 import Nav from "./Nav/Nav"
 
 
@@ -28,6 +32,11 @@ const App = () => {
                 <Route path="/" element={<Nav />} />        
                 <Route path="/Fruehstueck" element={<Fruehstueck />} / >
                 <Route path="/Suppen" element={<Suppen />} / >
+                <Route path="/Speisen" element={<Speisen />} / >
+                <Route path="/Salate" element={<Salate />} / >
+                <Route path="/Getraenke" element={<Getraenke />} / >
+                <Route path="/Kuchen" element={<Kuchen />} / >
+                <Route path="/Spezialitaeten" element={<Spezialitaeten />} / >
                     
                 </Routes> 
             
