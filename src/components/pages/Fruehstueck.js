@@ -10,7 +10,7 @@ const Fruehstueck = () => {
 <div className="container__fluid">
 
            <h1 className="center">Frühstücke</h1>
-         
+         <p className="speisen__subhead">In unseren Frühstücken ist jeweils ein Heißgetränk nach Wahl inklusive:Café Crema, Cappuccino, Milchkaffee, Latte Macchiato, Espresso, heiße Schokolade, Tee. Möchtest du lieber eine unserer Spezialitäten, berechnen wir einen Aufpreis von 50 Cent.</p>
             
 
                 {

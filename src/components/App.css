@@ -63,9 +63,18 @@ h2 {
 }
 
 .desc {
-	font-size: 1rem;
+	font-size: 0.8rem;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.4;
+	color: #333;
+}
+
+.speisen__subhead {
+	font-size: 0.8rem;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #333;
+	padding: 1.5rem 0;
 }
 
 .speisen__price {
