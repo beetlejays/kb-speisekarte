@@ -1,6 +1,7 @@
 import React from "react"
 import fruehstuecke_speisen from "../content/fruehstueck"
 import BackBtn from "../Buttons/BackButton/BackButton";
+import { Link } from "react-router-dom";
 
 
 const Fruehstueck = () => {
@@ -12,7 +13,7 @@ const Fruehstueck = () => {
             </div>
         </header>
         <div className="back">
-            <BackBtn />
+          <Link to="/"><BackBtn /></Link>  
         </div>
 		<div className="container__fluid">
 			
