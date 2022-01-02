@@ -58,7 +58,61 @@ const fruehstuecke_speisen = [
         title: "Kikeriki",
         description: "1 Heißgetränk nach Wahl, 3 Rühreier mit frischen Kräutern, Käse und Tomaten auf zwei, mit Frischkäse  bestrichenen Scheiben Mehrkornbrot",
         price: "9.10"
-    },            
+    },
+    {
+        id: 11,
+        title: "Belegtes Brötchen nach Wahl",
+        description: "mit rohem oder gekochtem Schinken, Salami, Käse, Putenaufschnitt",
+        price: "3.50"
+    },
+    {
+        id: 12,
+        title: "Eier BENEDIKT (auch Veggie)",
+        description: "1 Heißgetränk nach Wahl, 2 Scheiben Mehrkorntoast, belegt mit Käse, krossem Speck, 2 pochierten Eiern und Sauce Hollandaise",
+        price: "11.70"
+    },
+    {
+        id: 13,
+        title: "Om-Wrap (auch Veggie)",
+        description: "1 Heißgetränk nach Wahl, köstliches Omelette mit Kräutern, Zwiebeln, Paprika, gekochtem Schinken1,2,6, Käse in einem Tortilla-Wrap",
+        price: "11.70"
+    },
+    {
+        id: 14,
+        title: "pancakes (Vegan)",
+        description: "1 Heißgetränk mit Pflanzenmilch nach Wahl, 4 fluffige Pancakes mit Ahornsirup und Früchten",
+        price: "7.50"
+    }, 
+    {
+        id: 15,
+        title: "JOM (Vegan)",
+        description: "Eine große Schale Soja-Joghurt mit Knusper-Müsli und frischem Obstsalat",
+        price: "6.80"
+    }, 
+    {
+        id: 16,
+        title: "Klein aber fein",
+        description: "Ein Heißgetränk nach Wahl und ein Schokocroissant",
+        price: "4.80"
+    },
+    {
+        id: 17,
+        title: "Schmierfink (Vegan)",
+        description: "Ein Heißgetränk nach Wahl (Pflanzenmilch), gemischter Brot- und Brötchenkorb, Margarine, veganer Aufstrich, kleine Schale Obstsalat, Erdnussbutter, Marmelade",
+        price: "13.60"
+    }, 
+    {
+        id: 18,
+        title: "Schmierfink (Vegan)",
+        description: "2 Heißgetränke nach Wahl, gemischter Brot- und Brötchenkorb, Butter, Frischkäse, Käse, luftgetrockneter Schinken9, Weichkäse, Tomate-Mozzarella, Salami 6,9, Geflügel-Mortadella, gekochter Schinken, Räucherlachs an Sahnemeerrettich6. Dazu servieren wir 2 Gläser prickelnden Secco oder Saft nach Wahl (0,1l)",
+        price: "32.00"
+    },
+    {
+        id: 19,
+        title: "Kostbar für zwei",
+        description: "2 Heißgetränke nach Wahl, Brot- und Brötchenauswahl, Butter, Putenaufschnitt1, gekochter und luftgetrockneter Schinken9, Salami 6,9, Käse, Frischkäse, Camembert,        zweierlei hausgemachte Marmeladen, Honig, Nutella und 2 gekochte Eier",        
+        price: "24.80"
+    },                    
 ]
 
 
