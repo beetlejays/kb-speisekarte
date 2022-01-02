@@ -59,6 +59,11 @@ h2 {
 	color: #f05a1a;
 }
 
+h3 {
+	text-align: center;
+	color: white;
+}
+
 .speisen__item {
 	padding-bottom: 3rem;
 }

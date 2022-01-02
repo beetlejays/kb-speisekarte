@@ -1,6 +1,7 @@
 import React from "react"
 import fruehstuecke_speisen from "../content/fruehstueck"
 import BackBtn from "../Buttons/BackButton/BackButton";
+import ScrollToTop from "../Buttons/ScrollToTop/ScrollToTop"
 import { Link } from "react-router-dom";
 
 
@@ -10,6 +11,7 @@ const Fruehstueck = () => {
         <header>
             <div className="head__section">
                 <h1 className="center">Frühstücke</h1>
+				<h3>"Was zum Krümeln"</h3>
             </div>
         </header>
         <div className="back">
@@ -39,6 +41,7 @@ const Fruehstueck = () => {
 				);
 			})}
 		</div>
+		<ScrollToTop />
         </>
 	);
     

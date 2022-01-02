@@ -1,7 +1,7 @@
 .item {
 	width: 280px;
 	height: 280px;
-	background-color: orange;
+	background-color: #f05a1a;
 	border-radius: 50%;
 	font-size: 2.5rem;
 	color: white;
@@ -23,7 +23,7 @@ a {
 
 .item:hover,
 .item:active {
-	background-color: rgb(255, 102, 0);
+	background-color: orange;
 	cursor: pointer;
 }
 
