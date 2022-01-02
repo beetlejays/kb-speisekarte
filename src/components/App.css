@@ -35,7 +35,7 @@ nav {
 	max-width: 650px;
 	margin: auto;
 	background-color: white;
-	padding: 3rem 1rem;
+	padding: 1rem 1rem;
 }
 
 h1,
@@ -49,13 +49,13 @@ h6 {
 
 h1 {
 	text-transform: uppercase;
-	color: orange;
+	color: #f05a1a;
 	font-size: 3rem;
 }
 
 h2 {
 	font-size: 1.7rem;
-	color: orange;
+	color: #f05a1a;
 }
 
 .speisen__item {
@@ -69,9 +69,9 @@ h2 {
 }
 
 .speisen__price {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: orange;
+	background-color: #f05a1a;
 	color: white;
 	display: inline-block;
 	padding: 0.5rem;
