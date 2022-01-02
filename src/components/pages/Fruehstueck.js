@@ -1,11 +1,35 @@
 import React from "react"
+import fruehstuecke_speisen from "../content/fruehstueck"
+
+
 
 const Fruehstueck = () => {
-    return(
-       <div>
+    return (        
+
+
+<div className="container__fluid">
+
            <h1 className="center">Frühstücke</h1>
-           <p>Hier gibt es ganz tolle Frühstücke</p>
-       </div>
+         
+            
+
+                {
+                    fruehstuecke_speisen.map( (items) => {
+                        return (
+                        <div className="speisen__item">
+                        <h2 key="{title}">{ items.title }</h2>
+                        <p className="desc" key="{description}">{ items.description }</p>
+                        <p className="speisen__price" key="{price}">{ items.price }<span> EUR</span> </p>    
+                        </div>
+                        )
+                    })
+                }
+
+                      
+            
+            </div>
+
+       
     )
 }
 
