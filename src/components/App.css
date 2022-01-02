@@ -94,6 +94,10 @@ h2 {
 	transform: translateY(10px);
 }
 
+.back {
+	padding-left: 1rem;
+}
+
 .center {
 	text-align: center;
 }

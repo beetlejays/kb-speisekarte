@@ -3,7 +3,7 @@ import "./BackButton.css"
 
 const BackButton = () => {
     return(
-        <h2>Zurück</h2>
+        <p className="back__btn"> &raquo; Zurück zu Speisen</p>
     )
 }
 
