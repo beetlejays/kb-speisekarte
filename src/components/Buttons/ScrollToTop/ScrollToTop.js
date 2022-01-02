@@ -1,10 +1,11 @@
 import React from "react";
+import "./ScrollToTop.css"
 
 const ScrollToTop = () => {
     return(
         <>
             <footer>
-            <p>Zurück nach oben</p>
+            <p  className="footer__content">Zurück nach oben</p>
             </footer>
         </>
     )
