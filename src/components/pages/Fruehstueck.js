@@ -33,10 +33,10 @@ const Fruehstueck = () => {
 						<p className="desc" key="{description}">
 							{items.description}
 						</p>
-						<p className="speisen__price" key="{price}">
+						<span className="speisen__price" key="{price}">
 							{items.price}
 							<span> EUR</span>{" "}
-						</p>
+						</span>
 					</div>
 				);
 			})}
