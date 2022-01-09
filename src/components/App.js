@@ -7,7 +7,7 @@ import Suppen from "./pages/Suppen";
 import Speisen from "./pages/Speisen";
 import Heissgetraenke from "./pages/Heissgetraenke";
 import Getraenke from "./pages/Getraenke";
-import Spezialitaeten from "./pages/Spezialitaeten";
+import Saefte from "./pages/Saefte";
 import Kuchen from "./pages/Kuchen";
 import Nav from "./Nav/Nav"
 
@@ -35,8 +35,8 @@ const App = () => {
                 <Route path="/Speisen" element={<Speisen />} / >
                 <Route path="/Heissgetraenke" element={<Heissgetraenke />} / >
                 <Route path="/Getraenke" element={<Getraenke />} / >
+                <Route path="/Saefte" element={<Saefte />} / >
                 <Route path="/Kuchen" element={<Kuchen />} / >
-                <Route path="/Spezialitaeten" element={<Spezialitaeten />} / >
                     
                 </Routes> 
             

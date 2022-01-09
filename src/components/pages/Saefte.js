@@ -1,5 +1,5 @@
 import React from "react"
-import kb_heissgetraenke from "../content/HeissgetraenkeSeed"
+import kb_saefte from "../content/SaefteSeed"
 import BackBtn from "../Buttons/BackButton/BackButton";
 import ScrollToTop from "../Buttons/ScrollToTop/ScrollToTop"
 import { Link } from "react-router-dom";
@@ -9,8 +9,8 @@ const Speisen = () => {
         <>
         <header>
             <div className="head__section">
-                <h1 className="center">Heissgetränke</h1>
-				<h3>"Heiss - süss - wach"</h3>
+                <h1 className="center">Säfte und Gesundes</h1>
+				<h3>"Tu dir was gutes"</h3>
                
             </div>
         </header>
@@ -18,9 +18,9 @@ const Speisen = () => {
           <Link to="/"><BackBtn /></Link>  
         </div>
 		<div className="container__fluid">
-		<p className="speisen__subhead">Alle Getränke auch möglich mit Pflanzenmilch + 0,50 EUR</p>
+		
 
-			{ kb_heissgetraenke.map( (items) => {
+			{ kb_saefte.map( (items) => {
 				return (
 					<div className="speisen__item">
 						<h2 key="{title}">{items.title}</h2>

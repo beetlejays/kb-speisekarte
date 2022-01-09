@@ -10,8 +10,8 @@ const Nav = () => {
            <Link to="/Speisen"> <Navitem name="Speisen" /></Link>
            <Link to="/Heissgetraenke"> <Navitem name="Heissgetränke" /></Link>
            <Link to="/Getraenke"> <Navitem name="Getränke" /></Link>
+           <Link to="/Saefte"> <Navitem name="Säfte" /></Link>
            <Link to="/Kuchen"> <Navitem name="Kuchen" /></Link>
-           <Link to="/Spezialitaeten"> <Navitem name="Spezialitäten" /></Link>
           </nav>
 
        
