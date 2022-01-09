@@ -8,8 +8,13 @@ import Logo from "../Logo/Logo"
 const Nav = () => {
     return(
         <>
+          
+          <div className="container__main center">
           <Logo />
+          </div>
+
           <nav className="container">
+            
            <Link to="/Fruehstueck"> <Navitem name="Frühstück" /></Link>
            <Link to="/Speisen"> <Navitem name="Speisen" /></Link>
            <Link to="/Heissgetraenke"> <Navitem name="Heissgetränke" /></Link>
