@@ -8,7 +8,7 @@ import Logo from "../Logo/Logo"
 const Nav = () => {
     return(
         <>
-          
+         
           <div className="container__main center">
           <Logo />
           </div>
@@ -22,6 +22,7 @@ const Nav = () => {
            <Link to="/Saefte"> <Navitem name="Säfte" /></Link>
            <Link to="/Kuchen"> <Navitem name="Kuchen" /></Link>
           </nav>
+        
 
        
 

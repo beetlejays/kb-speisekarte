@@ -1,7 +1,8 @@
 const kb_getraenke = [
     {
         id: 1,
-        title: "Cola, Sprite, Spezi, Fanta, Apfelschorle 0,33l",
+        title: "Softdrinks",
+        description: "Cola, Sprite, Spezi, Fanta, Apfelschorle 0,33l",
         price: "2.70"
     },
     {
@@ -21,17 +22,20 @@ const kb_getraenke = [
     },
     {
         id: 5,
-        title: "Wasser 0,25l / still oder spritzig",
+        title: "Wasser 0,25l ",
+        description: "still oder spritzig",
         price: "2.20"
     }, 
     {
         id: 6,
-        title: "Wasser 0,5l / still oder spritzig",
+        title: "Wasser 0,5l",
+        description: "still oder spritzig",
         price: "3.50"
     },
     {
         id: 7,
-        title: "Bier 0,33l / Schlappeseppel Spezial",
+        title: "Bier 0,33l",
+        description: "Schlappeseppel Spezial",
         price: "3.00"
     }, 
     {

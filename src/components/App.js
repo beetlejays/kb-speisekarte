@@ -24,7 +24,7 @@ import "./App.css"
 ///// Setup
 const App = () => {
     return(
-        <>
+        <div className="bg">
             
 
             <BrowserRouter>
@@ -41,8 +41,8 @@ const App = () => {
                 </Routes> 
             
             </BrowserRouter>
-           
-        </>
+            
+            </div>
     )
 }
 

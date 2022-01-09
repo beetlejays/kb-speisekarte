@@ -29,8 +29,8 @@ a {
 
 @media screen and (max-width: 620px) {
 	.item {
-		width: 150px;
-		height: 150px;
-		font-size: 1.7rem;
+		width: 140px;
+		height: 140px;
+		font-size: 1.3rem;
 	}
 }
