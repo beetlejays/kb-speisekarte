@@ -1,6 +1,7 @@
 .back__btn {
 	font-size: 1.2rem;
 	font-family: "Oswald";
-	margin-top: 0.6rem;
-	color: #666;
+	color: grey;
+	background-color: rgb(211, 211, 211);
+	padding: 0.3rem 0 0.5rem 1rem;
 }
