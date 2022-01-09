@@ -1,4 +1,4 @@
-const fruehstuecke_speisen = [
+const kb_heissgetraenke = [
     {
         id: 1,
         title: "Business",
@@ -116,4 +116,4 @@ const fruehstuecke_speisen = [
 ]
 
 
-export default fruehstuecke_speisen
+export default kb_heissgetraenke
