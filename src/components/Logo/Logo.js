@@ -5,7 +5,7 @@ import "./Logo.css"
 const Logo = () => {
     return(
         <>
-            <img src= { kbLogo } />
+            <img src= { kbLogo } alt="Kostbar Logo" />
         </>
     )
 }
