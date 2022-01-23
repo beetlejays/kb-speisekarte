@@ -127,6 +127,18 @@ h3 {
 	align-self: flex-end;
 }
 
+.alt__price {
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f05a1a;
+	color: white;
+	display: inline-block;
+	padding: 0.5rem;
+	border-radius: 8px;
+	margin-top: 0.8rem;
+	align-self: flex-end;
+}
+
 .back {
 	position: sticky;
 	top: 0;

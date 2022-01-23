@@ -26,17 +26,28 @@ const Fruehstueck = () => {
 				Spezialitäten, berechnen wir einen Aufpreis von 50 Cent.
 			</p>
 
+			
+			
 			{ fruehstuecke_speisen.map ( (items) => {
+					
 				return (
 					<div className="speisen__item">
-						<h2 key="{title}">{items.title}</h2>
-						<p className="desc" key="{description}">
-							{items.description}
+						<h2 key="{ title }"> { items.title } </h2>
+						<p className="desc" key=" { description } ">
+							{ items.description }
 						</p>
-						<span className="speisen__price" key="{price}">
-							{items.price}
+						<span className="speisen__price" key=" { price } ">
+							{ items.price }
 							<span> EUR</span>{" "}
 						</span>
+
+						{ items.alt_one &&
+						<div className="flex alt__price">	
+						  { items.alt_one }  { items.alt_one_price } <span> EUR</span>{" "}
+						</div>
+						} 
+
+
 					</div>
 				);
 			})}

@@ -39,7 +39,9 @@ const fruehstuecke_speisen = [
         id: 7,
         title: "Ei-Ei-Ei",
         description: "1 Heißgetränk nach Wahl, 3 Rühreier mit  Gemüsewürfeln oder 3 Spiegeleier, 1 Weizen- brötchen und Butter",
-        price: "8.50"
+        price: "8.50",
+        alt_one: "mit Speck",
+        alt_one_price: "9.80"
     }, 
     {
         id: 8,
