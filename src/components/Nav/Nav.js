@@ -15,6 +15,7 @@ const Nav = () => {
 
           <nav className="container">
             
+           <Link to="/DoItYourself"> <Navitem name="Do it yourself" /></Link>
            <Link to="/Fruehstueck"> <Navitem name="Frühstück" /></Link>
            <Link to="/Speisen"> <Navitem name="Speisen" /></Link>
            <Link to="/Heissgetraenke"> <Navitem name="Heissgetränke" /></Link>
@@ -22,11 +23,6 @@ const Nav = () => {
            <Link to="/Saefte"> <Navitem name="Säfte" /></Link>
            <Link to="/Kuchen"> <Navitem name="Kuchen" /></Link>
           </nav>
-        
-
-       
-
-
         
         </>
     )

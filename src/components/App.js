@@ -3,6 +3,7 @@ import React from "react"
 
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Fruehstueck from "./pages/Fruehstueck";
+import DoItYourself from "./pages/DoItYourself";
 import Suppen from "./pages/Suppen";
 import Speisen from "./pages/Speisen";
 import Heissgetraenke from "./pages/Heissgetraenke";
@@ -31,6 +32,7 @@ const App = () => {
                <Routes>
                 <Route path="/" element={<Nav />} />        
                 <Route path="/Fruehstueck" element={<Fruehstueck />} / >
+                <Route path="/DoItYourself" element={<DoItYourself />} / >
                 <Route path="/Suppen" element={<Suppen />} / >
                 <Route path="/Speisen" element={<Speisen />} / >
                 <Route path="/Heissgetraenke" element={<Heissgetraenke />} / >

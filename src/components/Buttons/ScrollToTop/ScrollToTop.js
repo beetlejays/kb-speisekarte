@@ -5,7 +5,7 @@ const ScrollToTop = () => {
     return(
         <>
             <footer>
-            <p  className="footer__content">Zurück nach oben</p>
+            <a href="#root"  className="footer__content">Zurück nach oben</a>
             </footer>
         </>
     )

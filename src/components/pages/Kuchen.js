@@ -3,7 +3,7 @@ import BackBtn from "../Buttons/BackButton/BackButton";
 import ScrollToTop from "../Buttons/ScrollToTop/ScrollToTop"
 import { Link } from "react-router-dom";
 
-const Speisen = () => {
+const Kuchen = () => {
     return(
         <>
         <header>
@@ -27,4 +27,4 @@ const Speisen = () => {
     )
 }
 
-export default Speisen
+export default Kuchen

@@ -13,13 +13,13 @@ const fruehstuecke_speisen = [
     },
     {
         id: 3,
-        title: "Sportivo (auch Veggie)",
+        title: "Sportivo (gibt´s auch Veggie)",
         description: "1 Heißgetränk nach Wahl, 1 Mehrkornbrötchen,  Frischkäse, Käse, Putenschinken1,  Rührei, frischer Obstsalat mit Naturjoghurt und Knuspermüsli",
         price: "10.20"
     },
     {
         id: 4,
-        title: "Classico (auch Veggie)",
+        title: "Classico (gibt´s auch Veggie)",
         description: "1 Heißgetränk nach Wahl, gemischter Brot- und Bröt-chenkorb, Butter, hausgemachte Marmelade, Honig, Geflügelaufschnitt, gekochter Schinken, Salami, Käse, Camembert und ein gekochtes Ei",
         price: "12.10"
     },
@@ -51,7 +51,7 @@ const fruehstuecke_speisen = [
     },
     {
         id: 9,
-        title: "Teller-Kunterbunt (auch veggie)",
+        title: "Teller-Kunterbunt (gibt´s auch Veggie)",
         description: "1 Heißgetränk nach Wahl, knackigfrisches Gemüse-Allerlei (Motto: quer durch den Garten), Mehr-kornbrot, hausgemachter Frischkäse, Puten- schinken1, Scheibenkäse ",
         price: "9.80"
     },
@@ -59,29 +59,34 @@ const fruehstuecke_speisen = [
         id: 10,
         title: "Kikeriki",
         description: "1 Heißgetränk nach Wahl, 3 Rühreier mit frischen Kräutern, Käse und Tomaten auf zwei, mit Frischkäse  bestrichenen Scheiben Mehrkornbrot",
-        price: "9.10"
+        price: "9.10",
+        alt_one: "mit Speck",
+        alt_one_price: "11.70"
     },
     {
         id: 11,
         title: "Belegtes Brötchen nach Wahl",
         description: "mit rohem oder gekochtem Schinken, Salami, Käse, Putenaufschnitt",
-        price: "3.50"
+        price: "3.70",
+        alt_one: "mit Lachs oder Camembert",
+        alt_one_price: " 4.90"
     },
+    
     {
         id: 12,
-        title: "Eier BENEDIKT (auch Veggie)",
+        title: "Eier Benedikt (gibt´s auch Veggie)",
         description: "1 Heißgetränk nach Wahl, 2 Scheiben Mehrkorntoast, belegt mit Käse, krossem Speck, 2 pochierten Eiern und Sauce Hollandaise",
         price: "11.70"
     },
     {
         id: 13,
-        title: "Om-Wrap (auch Veggie)",
+        title: "Om-Wrap (gibt´s auch Veggie)",
         description: "1 Heißgetränk nach Wahl, köstliches Omelette mit Kräutern, Zwiebeln, Paprika, gekochtem Schinken1,2,6, Käse in einem Tortilla-Wrap",
         price: "11.70"
     },
     {
         id: 14,
-        title: "pancakes (Vegan)",
+        title: "Pancakes (Vegan)",
         description: "1 Heißgetränk mit Pflanzenmilch nach Wahl, 4 fluffige Pancakes mit Ahornsirup und Früchten",
         price: "7.50"
     }, 
@@ -91,12 +96,7 @@ const fruehstuecke_speisen = [
         description: "Eine große Schale Soja-Joghurt mit Knusper-Müsli und frischem Obstsalat",
         price: "6.80"
     }, 
-    {
-        id: 16,
-        title: "Klein aber fein",
-        description: "Ein Heißgetränk nach Wahl und ein Schokocroissant",
-        price: "4.80"
-    },
+   
     {
         id: 17,
         title: "Schmierfink (Vegan)",
