@@ -2,6 +2,7 @@
 import React from "react"
 
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { Link, animateScroll as scroll } from "react-scroll"
 import Fruehstueck from "./pages/Fruehstueck";
 import DoItYourself from "./pages/DoItYourself";
 import Suppen from "./pages/Suppen";

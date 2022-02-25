@@ -23,6 +23,7 @@ const Nav = () => {
            <Link to="/Saefte"> <Navitem name="Säfte" /></Link>
            <Link to="/Kuchen"> <Navitem name="Kuchen" /></Link>
           </nav>
+         
         
         </>
     )
