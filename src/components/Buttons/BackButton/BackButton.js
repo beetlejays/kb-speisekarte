@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, animateScroll as scroll } from "react-scroll"
 import "./BackButton.css"
 
 const BackButton = () => {
