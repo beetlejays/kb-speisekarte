@@ -2,25 +2,25 @@ const fruehstuecke_speisen = [
     {
         id: 1,
         title: "Business",
-        description: "1 Heißgetränk nach Wahl, 1 Weizenbrötchen, Butter, hausgemachte Marmelade und Honig",
+        description: "1 Weizenbrötchen, Butter, hausgemachte Marmelade und Honig",
         price: "5.90"
     },
     {
         id: 2,
         title: "Französisches Frühstück",
-        description: "1 Heißgetränk nach Wahl, 1 Buttercroissant, hausgemachte Marmelade, Honig, Butter und ein Glas Saft (0,2l) Ihrer Wahl",
+        description: "1 Buttercroissant, hausgemachte Marmelade, Nutella, Butter und ein Glas Saft (0,2l) Ihrer Wahl",
         price: "8.40"
     },
     {
         id: 3,
         title: "Sportivo (gibt´s auch Veggie)",
-        description: "1 Heißgetränk nach Wahl, 1 Mehrkornbrötchen,  Frischkäse, Käse, Putenschinken1,  Rührei, frischer Obstsalat mit Naturjoghurt und Knuspermüsli",
+        description: "1 Mehrkornbrötchen,  Frischkäse, Käse, Putenschinken,  Rührei, frischer Obstsalat mit Naturjoghurt und Knuspermüsli",
         price: "10.20"
     },
     {
         id: 4,
         title: "Classico (gibt´s auch Veggie)",
-        description: "1 Heißgetränk nach Wahl, gemischter Brot- und Bröt-chenkorb, Butter, hausgemachte Marmelade, Honig, Geflügelaufschnitt, gekochter Schinken, Salami, Käse, Camembert und ein gekochtes Ei",
+        description: "Gemischter Brot- und Brötchenkorb, Butter, hausgemachte Marmelade, Honig, Aufschnitt, gekochter Schinken, Salami, Käse, Camembert und ein gekochtes Ei",
         price: "12.10"
     },
     {
@@ -32,13 +32,13 @@ const fruehstuecke_speisen = [
     {
         id: 6,
         title: "Italiano",
-        description: "Heißgetränk nach Wahl, gemischter Brot- und Brötchenkorb, Butter, Frischkäse, Käse, luftgetrock-neter Schinken9, Weichkäse, Tomate-Mozzarella,  Salami6,9, Geflügel-Mortadella, Räucherlachs an Sahnemeerrettich6. Dazu servieren wir ein Glas  prickelnden Secco oder Saft Ihrer Wahl (0,1l)",
+        description: "Gemischter Brot- und Brötchenkorb, Butter, Frischkäse, Käse, roher Schinken, Weichkäse, Tomate-Mozzarella,  Salami, Mortadella, Räucherlachs an Sahnemeerrettich. Dazu servieren wir ein Glas  prickelnden Secco oder Saft Ihrer Wahl (0,1l)",
         price: "16.10"
     },
     {
         id: 7,
         title: "Ei-Ei-Ei",
-        description: "1 Heißgetränk nach Wahl, 3 Rühreier mit  Gemüsewürfeln oder 3 Spiegeleier, 1 Weizen- brötchen und Butter",
+        description: "3 Rühreier mit  Gemüsewürfeln oder 3 Spiegeleier, 1 Weizenbrötchen und Butter",
         price: "8.50",
         alt_one: "mit Speck",
         alt_one_price: "9.80"
@@ -46,27 +46,27 @@ const fruehstuecke_speisen = [
     {
         id: 8,
         title: "Lieblings-Schüssel (vegan)",
-        description: "Cremige, eiskalkte Fruchtbombe aus Banane, Waldbeeren und Mandelmilch, getoppt mit Leinsamen, Kokos",
+        description: "Smoothie-Bowl mit jede Menge Früchten und hübsch gemacht mit Schnick und Schnack",
         price: "8.50"
     },
     {
         id: 9,
         title: "Teller-Kunterbunt (gibt´s auch Veggie)",
-        description: "1 Heißgetränk nach Wahl, knackigfrisches Gemüse-Allerlei (Motto: quer durch den Garten), Mehr-kornbrot, hausgemachter Frischkäse, Puten- schinken1, Scheibenkäse ",
+        description: "knackigfrisches Gemüse-Allerlei (Motto: quer durch den Garten), Mehrkornbrot, Frischkäse, Putenschinken, Käse ",
         price: "9.80"
     },
     {
         id: 10,
         title: "Kikeriki",
-        description: "1 Heißgetränk nach Wahl, 3 Rühreier mit frischen Kräutern, Käse und Tomaten auf zwei, mit Frischkäse  bestrichenen Scheiben Mehrkornbrot",
+        description: "3 Rühreier mit frischen Kräutern, Käse und Tomaten auf Mehrkornbrot",
         price: "9.10",
         alt_one: "mit Speck",
         alt_one_price: "11.70"
     },
     {
         id: 11,
-        title: "Belegtes Brötchen nach Wahl",
-        description: "mit rohem oder gekochtem Schinken, Salami, Käse, Putenaufschnitt",
+        title: "Belegtes Brötchen",
+        description: "wahlweise mit rohem oder gekochtem Schinken oder Salami oder Käse oder Aufschnitt, oder oder oder...",
         price: "3.70",
         alt_one: "mit Lachs oder Camembert",
         alt_one_price: " 4.90"
@@ -75,20 +75,20 @@ const fruehstuecke_speisen = [
     {
         id: 12,
         title: "Eier Benedikt (gibt´s auch Veggie)",
-        description: "1 Heißgetränk nach Wahl, 2 Scheiben Mehrkorntoast, belegt mit Käse, krossem Speck, 2 pochierten Eiern und Sauce Hollandaise",
+        description: "Gegrillter Bagel, mit Käse, krossem Speck, 2 pochierten Eiern und Sauce Hollandaise",
         price: "11.70"
     },
     {
         id: 13,
         title: "Om-Wrap (gibt´s auch Veggie)",
-        description: "1 Heißgetränk nach Wahl, köstliches Omelette mit Kräutern, Zwiebeln, Paprika, gekochtem Schinken1,2,6, Käse in einem Tortilla-Wrap",
+        description: "Köstliches Omelette mit Kräutern, Gemüse, gekochtem Schinken und Käse in einem Tortilla-Wrap",
         price: "11.70"
     },
     {
         id: 14,
         title: "Pancakes (Vegan)",
-        description: "1 Heißgetränk mit Pflanzenmilch nach Wahl, 4 fluffige Pancakes mit Ahornsirup und Früchten",
-        price: "7.50"
+        description: "4 fluffige Pancakes mit Ahornsirup und Früchten",
+        price: "8.50"
     }, 
     {
         id: 15,
@@ -100,19 +100,19 @@ const fruehstuecke_speisen = [
     {
         id: 17,
         title: "Schmierfink (Vegan)",
-        description: "Ein Heißgetränk nach Wahl (Pflanzenmilch), gemischter Brot- und Brötchenkorb, Margarine, veganer Aufstrich, kleine Schale Obstsalat, Erdnussbutter, Marmelade",
+        description: "Gemischter Brot- und Brötchenkorb, Margarine, vegane Aufstriche, kleine Schale Obstsalat, Erdnussbutter, Marmelade",
         price: "13.60"
     }, 
     {
         id: 18,
-        title: "Schmierfink (Vegan)",
-        description: "2 Heißgetränke nach Wahl, gemischter Brot- und Brötchenkorb, Butter, Frischkäse, Käse, luftgetrockneter Schinken9, Weichkäse, Tomate-Mozzarella, Salami 6,9, Geflügel-Mortadella, gekochter Schinken, Räucherlachs an Sahnemeerrettich6. Dazu servieren wir 2 Gläser prickelnden Secco oder Saft nach Wahl (0,1l)",
+        title: "Italiano für Zwei",
+        description: "Gemischter Brot- und Brötchenkorb, Butter, Frischkäse, Käse, roher Schinken, Camembert, Tomate-Mozzarella, Salami, Mortadella, gekochter Schinken, Räucherlachs an Sahnemeerrettich. Dazu servieren wir 2 Gläser prickelnden Secco oder Saft nach Wahl (0,1l)",
         price: "32.00"
     },
     {
         id: 19,
         title: "Kostbar für zwei",
-        description: "2 Heißgetränke nach Wahl, Brot- und Brötchenauswahl, Butter, Putenaufschnitt1, gekochter und luftgetrockneter Schinken9, Salami 6,9, Käse, Frischkäse, Camembert,        zweierlei hausgemachte Marmeladen, Honig, Nutella und 2 gekochte Eier",        
+        description: "Brot- und Brötchenauswahl, Butter, Aufschnitt, roher und gekochter Schinken, Salami, Käse, Frischkäse, Camembert, zweierlei hausgemachte Marmeladen, Honig, Nutella und 2 gekochte Eier",        
         price: "24.80"
     },                    
 ]
