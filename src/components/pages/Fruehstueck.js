@@ -19,12 +19,7 @@ const Fruehstueck = () => {
         </div>
 		<div className="container__fluid">
 			
-			<p className="speisen__subhead">
-				In unseren Frühstücken ist jeweils ein Heißgetränk nach Wahl
-				inklusive:Café Crema, Cappuccino, Milchkaffee, Latte Macchiato,
-				Espresso, heiße Schokolade, Tee. Möchtest du lieber eine unserer
-				Spezialitäten, berechnen wir einen Aufpreis von 50 Cent.
-			</p>
+		
 
 			
 			
@@ -51,6 +46,10 @@ const Fruehstueck = () => {
 					</div>
 				);
 			})}
+
+<p className="speisen__subhead">
+				Teilen Sie sich ein Frühstück für eine Person, berechnen wir einen Aufpreis von 2.50 EUR.
+			</p>
 		</div>
 		<ScrollToTop />
         </>
