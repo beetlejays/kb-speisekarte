@@ -63,9 +63,10 @@ const kb_getraenke = [
     {
         id: 11,
         title: "Secco-Mix 0,2l",
-        description: "(Udoh, Aperol, HuGo, Limoncello und Cassis)",
+        description: "(Udoh, Aperol, HuGo, Limoncello, Cassis, Bratapfellikör)",
         price: "5.90"
-    }, 
+    },
+   
     {
         id: 12,
         title: "Bacchus 0,2l / halbtrocken",

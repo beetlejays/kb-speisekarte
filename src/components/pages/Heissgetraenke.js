@@ -18,7 +18,7 @@ const Speisen = () => {
           <Link to="/"><BackBtn /></Link>  
         </div>
 		<div className="container__fluid">
-		<p className="speisen__subhead">Alle Getränke auch möglich mit Pflanzenmilch + 0,50 EUR</p>
+		<p className="speisen__subhead">Alle Getränke auch möglich mit Hafermilch + 0,50 EUR</p>
 
 			{ kb_heissgetraenke.map( (items) => {
 				return (

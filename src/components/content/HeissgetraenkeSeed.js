@@ -21,7 +21,8 @@ const kb_heissgetraenke = [
     },
     {
         id: 5,
-        title: "Latte Macchiato (Sirup 0,30€)",
+        title: "Latte Macchiato (Sirup +0,30€)",
+        description: "Vanille, Caramel, Haselnuss, Lebkuchen, Zimt, Kokos",
          price: "3.10"
     }, 
     {
@@ -41,14 +42,14 @@ const kb_heissgetraenke = [
     },
     {
         id: 9,
-        title: "Tee (mit Honig 0,30€)",
+        title: "Tee",
         description: "Darjeeling, Grüner Tee, Waldbeerentee, Roibusch Tee, Ayurveda-Kräutertee, Pfefferminztee, Kamillentee",
         price: "2.50"
     },
     {
         id: 10,
         title: "Chai Latte",
-        description: "Schwarzer Tee mit Gewürzen und Milch (auch vegan möglich)",
+        description: "Schwarzer Tee mit Gewürzen und Milch",
         price: "3,30"
     },
     {
@@ -78,7 +79,7 @@ const kb_heissgetraenke = [
     {
         id: 15,
         title: "Heiße Inge",
-        description: "Ingwer-Zitronen-Drink mit Pfefferminz",
+        description: "Ingwer-Zitronen-Drink mit Pfefferminze",
         price: "4.90"
     }, 
     {
@@ -86,13 +87,8 @@ const kb_heissgetraenke = [
         title: "Apfelzauber",
         description: "Heißer Apfel-Drink mit hausgemachter Gewürzbutter",
         price: "3.90"
-    },
-    {
-        id: 17,
-        title: "Apfel-Spritz",
-        description: "Perlender Secco mit Bratapfellikör 0,1l",
-        price: "4.50"
-    }                   
+    }
+                  
 ]
 
 
