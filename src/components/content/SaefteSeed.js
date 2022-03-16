@@ -20,13 +20,13 @@ const kb_saefte = [
     {
         id: 4,
         title: "Exotik",       
-        description: "Beeriger-Wald-Fruchtsaft",
+        description: "Beeriger Waldfruchtsaft",
         price: "4.90"
     },
     {
         id: 5,
         title: "Olle Knolle",
-        description: "Rote-Beete, Apfel Smoothie",
+        description: "Rote-Beete, Apfel-Orange Smoothie",
         price: "4.90"
     }, 
     {
@@ -44,7 +44,7 @@ const kb_saefte = [
     {
         id: 8,
         title: "Grashüpfer",
-        description: "grüner Power-Smoothie",
+        description: "Grüner Power-Smoothie",
         price: "4.90"
     },
     {

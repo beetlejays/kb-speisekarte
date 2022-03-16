@@ -61,7 +61,7 @@ const kb_heissgetraenke = [
     {
         id: 12,
         title: "Cappuccino-Brûlée",
-        description: "mit braunem Zucker karamellisierter Cappuccino",
+        description: "karamellisierter Cappuccino",
         price: "3.40"
     },
     {

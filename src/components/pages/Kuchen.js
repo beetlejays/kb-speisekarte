@@ -12,12 +12,13 @@ const Kuchen = () => {
 				<h3>"Süßes geht immer"</h3>             
             </div>
         </header>
-        <div className="container__fluid">
-        <p className="speisen__subhead" >Bitte schaut euch bei unserer Kuchentheke um, da wir immer unterschiedliche Leckereien haben :)</p>
-        </div>
         <div className="back">
           <Link to="/"><BackBtn /></Link>  
         </div>
+        <div className="container__fluid">
+        <p className="speisen__subhead" >Bitte schaut euch bei unserer Kuchentheke um, da wir immer unterschiedliche Leckereien aben :)</p>
+        </div>
+      
 		<div className="container__fluid">
 		
 
