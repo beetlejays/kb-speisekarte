@@ -3,7 +3,7 @@ const fruehstueck_doityourself = [
     {
         id: 1,
         title: "1 Gekochtes Ei",
-        price: "1.90"
+        price: "1.10"
     },
     {
         id: 2,
@@ -17,7 +17,12 @@ const fruehstueck_doityourself = [
     },
     {
         id: 4,
-        title: "Portion gekochter/roher Schinken o. Salami",
+        title: "Portion gekochter/roher Schinken",
+        price: "2.40"
+    },
+    {
+        id: 4,
+        title: "Portion Salami oder Aufschnitt",
         price: "2.40"
     },
     {
@@ -67,39 +72,35 @@ const fruehstueck_doityourself = [
     },
     {
         id: 12,
-        title: "Marmelade, Honig, Nutella, Butter",
-        price: "je 0.90"
+        title: "Marmelade, Honig, Nutella, Butter, Ernussbutter",
+        price: "je 1.00"
     },
     {
         id: 13,
         title: "Portion Frischkäse",
-        price: "1.10"
+        price: "1.20"
     },
     {
         id: 14,
-        title: "Weizenbrötchen",
-        price: "0.50"
+        title: "Weizen-/ Laugenbrötchen",
+        price: "0.70"
     },
     {
         id: 15,
-        title: "Körner- oder toskanisches Brötchen",
+        title: "Körner-/ toskanisches Brötchen",
         price: "0.90"
     },
     {
         id: 16,
         title: "Croissant",
-        price: "1.90"
+        price: "1.60"
     },
     {
         id: 17,
-        title: "Laugenstange",
-        price: "1.40"
+        title: "3 fluffige Pancakes, Früchte, Ahornsirup",
+        price: "6.50"
     },
-    {
-        id: 18,
-        title: "Laugenstange mit Käse",
-        price: "1.60"
-    },
+ 
     
 ]
 
