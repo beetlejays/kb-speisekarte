@@ -82,7 +82,7 @@ const fruehstuecke_speisen = [
         id: 13,
         title: "Om-Wrap (gibt´s auch Veggie)",
         description: "Köstliches Omelette mit Kräutern, Gemüse, gekochtem Schinken und Käse in einem Tortilla-Wrap",
-        price: "11.70"
+        price: "10.20"
     },
     {
         id: 14,

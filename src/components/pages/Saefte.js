@@ -10,7 +10,7 @@ const Speisen = () => {
         <header>
             <div className="head__section">
                 <h1 className="center">Säfte und Gesundes</h1>
-				<h3>"Tu dir was gutes"</h3>
+				<h3>"Tu dir was Gutes" - Alle Säfte in 0,3l</h3>
                
             </div>
         </header>
