@@ -13,7 +13,8 @@ const fruehstueck_doityourself = [
     {
         id: 3,
         title: "3 Rühreier- oder Spiegeleier",
-        price: "4.50" 
+        price: "4.50",
+        //alt_one: "mit Speck", 
     },
     {
         id: 4,
