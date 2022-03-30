@@ -16,7 +16,14 @@ const Kuchen = () => {
           <Link to="/"><BackBtn /></Link>  
         </div>
         <div className="container__fluid">
-        <p className="speisen__subhead" >Bitte schaut euch bei unserer Kuchentheke um, da wir immer unterschiedliche Leckereien aben :)</p>
+            <h2>„Kuchen macht nicht dick! Er zieht nur die Falten glatt!</h2>
+        <p className="speisen__subhead" >
+        Unsere Kuchentheke bietet für jeden Süßschnabel die richtige Leckerei!
+Neben warmem Apfelstrudel mit Vanilleeis und Sahne verführen/verzaubern/verlocken wir Sie mit zahlreichen bunten Kuchen, Torten und Schnittchen. </p>
+<p className="speisen__subhead" >Außerdem bieten wir täglich leckere Alternativen, die vegan, laktosefrei oder glutenfrei sind, an.
+Da die tägliche Auswahl variiert, bitten wir Sie, an unserer Kuchentheke vorbeizuschauen. 
+
+        </p>
         </div>
       
 		<div className="container__fluid">
