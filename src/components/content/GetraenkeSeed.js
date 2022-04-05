@@ -3,19 +3,19 @@ const kb_getraenke = [
         id: 1,
         title: "Softdrinks 0,33l",
         description: "Cola, Sprite, Spezi, Fanta, Apfelschorle",
-        price: "2.70"
+        price: "2.90"
     },
     {
         id: 1,
         title: "Almdudler 0,35l",
         description: "Kräuterlimonade",
-        price: "2.90"
+        price: "3.00"
     },
    
     {
         id: 4,
         title: "Eistee 0,33l / Pfirsich",       
-        price: "3.10"
+        price: "3.50"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ const kb_getraenke = [
     },
     {
         id: 2,
-        title: "Alkoholfreies Pils 0,33l / Schlappeseppel",
+        title: "Alkoholfreies Pils 0,33l / Faust",
         price: "2.90"
     },
     {
@@ -58,13 +58,13 @@ const kb_getraenke = [
     {
         id: 10,
         title: "Secco 0,1l",
-        price: "3.90"
+        price: "4.20"
     },
     {
         id: 11,
         title: "Secco-Mix 0,2l",
         description: "(Udoh, Aperol, HuGo, Limoncello, Cassis, Bratapfellikör)",
-        price: "5.90"
+        price: "6.20"
     },
    
     {

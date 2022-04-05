@@ -2,61 +2,61 @@ const kb_heissgetraenke = [
     {
         id: 1,
         title: "Café Crema",
-        price: "2.40"
+        price: "2.50"
     },
     {
         id: 2,
         title: "Cappuccino",        
-        price: "2.70"
+        price: "2.80"
     },
     {
         id: 3,
         title: "Cappuccino mit Sahne",
-        price: "3.10"
+        price: "3.30"
     },
     {
         id: 4,
         title: "Milchkaffee",
-        price: "3.10"
+        price: "3.30"
     },
     {
         id: 5,
         title: "Latte Macchiato (Sirup +0,30€)",
         description: "Vanille, Caramel, Haselnuss, Lebkuchen, Zimt, Kokos",
-         price: "3.10"
+         price: "3.40"
     }, 
     {
         id: 6,
         title: "Espresso",
-        price: "2.00"
+        price: "2.20"
     },
     {
         id: 7,
         title: "Heiße Schokolade",
-        price: "3.10"
+        price: "3.30"
     }, 
     {
         id: 8,
         title: "Heiße Schokolade mit Sahne",
-        price: "3.50"
+        price: "3.70"
     },
     {
         id: 9,
         title: "Tee",
         description: "Darjeeling, Grüner Tee, Waldbeerentee, Roibusch Tee, Ayurveda-Kräutertee, Pfefferminztee, Kamillentee",
-        price: "2.50"
+        price: "2.90"
     },
     {
         id: 10,
         title: "Chai Latte",
         description: "Schwarzer Tee mit Gewürzen und Milch",
-        price: "3,30"
+        price: "3,60"
     },
     {
         id: 11,
         title: "Schokoccino",
         description: "Heiße Schokolade trifft auf köstlichen Cappuccino",
-        price: "3.90"
+        price: "3.40"
     },
     {
         id: 12,
@@ -68,13 +68,13 @@ const kb_heissgetraenke = [
         id: 13,
         title: "Goldene Milch (gibt´s auch kalt)",
         description: "Kurkuma, Kardamom, Zimt, Ingwer, aufgeschäumte Milch",
-        price: "3.30"
+        price: "3.60"
     },
     {
         id: 14,
         title: "Pink Latte (gibt´s auch kalt)",
         description: "Rote Beete, Gewürze, aufgeschäumte Milch",
-        price: "3.30"
+        price: "3.60"
     }, 
     {
         id: 15,
