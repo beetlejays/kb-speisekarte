@@ -33,8 +33,13 @@ const Mittagessen = () => {
 
               {items.alt_one && (
                 <div className="flex alt__price">
-                  {items.alt_one} {items.alt_one_price}{" "}
-                  {items.alt_one_price_two} <span> EUR</span>{" "}
+                  {items.alt_one} <span> EUR</span>{" "}
+                </div>
+              )}
+
+              {items.alt_two && (
+                <div className="flex alt__price">
+                  {items.alt_two} <span> EUR</span>{" "}
                 </div>
               )}
             </div>

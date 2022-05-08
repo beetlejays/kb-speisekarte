@@ -24,8 +24,8 @@ const mittagessen_speisen = [
     title: "Hausgemachte Suppen",
     description: "Fragen Sie nach unserem Tagesangebot",
     price: "klein 4.80",
-    alt_one_price: "mittel 6.80",
-    alt_one_price_two: "groß 8.80",
+    alt_one: "mittel 6.80",
+    alt_two: "groß 8.80",
   },
   {
     id: 5,
